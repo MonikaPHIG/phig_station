@@ -1,5 +1,6 @@
 env/
 
-.streamlit/secrets.toml
-
 *.pyc
+__pycache__/
+
+.streamlit/secrets.toml
