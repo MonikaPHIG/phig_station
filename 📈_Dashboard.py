@@ -105,7 +105,7 @@ dashboard = make_subplots(rows=4,
                                           'Current Rain',
                                           'Humidity',
                                           'Wind Speed',
-                                          f'Wind Direction<br><sup>{cond['wind_dir']}</sup>',))
+                                          f"Wind Direction<br><sup>{cond['wind_dir']}</sup>"))
                                         #   'Wind Rose',
                                         #   'Sunrise/Sunset',
                                         #   'Moon Phase',
