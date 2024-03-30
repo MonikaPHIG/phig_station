@@ -78,7 +78,7 @@ with col1:
     # Convert RFC822 timestamp to datetime format, then UTC to PST
     utc_datetime = parsedate_to_datetime(cond['observation_time_rfc822'])
     pst_datetime = utc_datetime.astimezone(timezone.utc) + timedelta(hours=-8)
-    st.markdown(f'Last updated: {pst_datetime.strftime('%b %d, %I:%M %p')}')
+    st.markdown(f"Last updated: {pst_datetime.strftime('%b %d, %I:%M %p')}")
 
 with col2:
     unit = st.radio(
